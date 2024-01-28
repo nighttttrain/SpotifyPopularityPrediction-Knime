@@ -1,1 +1,3 @@
-# spotify-popularity-prediction-knime
+# spotify-popularity-prediction-knime  
+The Kaggle's Song Popularity Dataset, which contains 603 records and 15 attributes of songs, was used for the investigation. The data transformation, aggregation, cleaning and preparation process was applied before the experiments. The experimental process included feature selection, hyperparameter tuning and evaluating the performance of the training and validation sets.  
+The polynomial regression model performed better than Random Forest (RF) regression model is this case. Specifically, the test result for the polynomial regression of R-squared was 0.254, and the RMSE is 12.683. On the other hand, the RMSE for RF regression model was 12.834, and the R-squared is 0.236.  
